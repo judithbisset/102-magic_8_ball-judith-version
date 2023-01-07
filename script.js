@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   var magic8Ball = {};
-  magic8Ball.listOfAnswers = ["No", "Yes", "I don't think so...", "Of course!", "Indubitably", "In your dreams."];
+  magic8Ball.listOfAnswers = ["Yeah nah", "Nah yeah", "I don't think so, bro", "Sure as!", "Without a doubt", "In your dreams, mate."];
 
   $("#answer").hide();
 
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
     setTimeout(function(){
-      var question = prompt("ASK A YES/NO QUESTION!");
+      var question = prompt("Ask a yes/no question");
       magic8Ball.askQuestion(question);
     }, 500);
 
